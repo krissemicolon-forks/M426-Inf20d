@@ -13,5 +13,17 @@ namespace Calculator
         {
             return minuend - subtrahend;
         }
+
+        public int Multiply(int factorA, int factorB)
+        {
+            return factorA * factorB;
+        }
+
+        public double Divide(int dividend, int divisor)
+        {
+            if (divisor == 0)
+                throw new ArgumentException("Divisor must not be zero");
+            return dividend / divisor;
+        }
     }
 }

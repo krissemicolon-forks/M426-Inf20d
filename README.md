@@ -167,17 +167,17 @@ wird.
 Nun können Sie die Änderungen vom Remote `upstream` laden und lokal anwenden:
 
     $ git fetch upstream
-    $ git merge upstream/main
+    $ git merge upstream/master
 
 Oder in einem Schritt:
 
-    $ git pull upstream main
+    $ git pull upstream master
 
 Sie werden erneut aufgefordert, Ihren Benutzernamen und Ihr Passwort einzugeben.
 
 Nun ist Ihr Repository wieder auf dem aktuellsten Stand, und Sie können damit
 weiterarbeiten. Der Befehl `git merge` führt alle neueren Änderungen von
-`upstream/main` bei Ihnen im lokalen Repository ein.
+`upstream/master` bei Ihnen im lokalen Repository ein.
 
 Sollte bei diesem Vorgang ein Merge-Konflikt entstehen, müssen Sie diesen in der
 betreffenden Datei selbständig auflösen. Anschliessend können Sie die
